@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: 'Zen Loop', cursive;
+	text-align: center;
+	background-color: saddlebrown;
+	padding: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F56598;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+li a:hover {
+  background-color: aqua;
+}
+
+h1 {
+	background-color: cornsilk;
+	margin-left: auto;
+}
+
+@font-face {
+	font-family: lemon grass;
+	src: url("lemon_grass/Lemon Grass.ttf")
+}
+
+h2 {
+	font-family: "lemon grass";
+	text-align: center;
+	color: white;
+}
+
+p {
+    font-family: 'Fredoka One', cursive;
+	font-size: 20px;
+	background-color: tan;
+	text-align: left;
+}
+
+.pics {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 200px);
+	grid-template-rows: auto;
+	margin: auto;
+}
